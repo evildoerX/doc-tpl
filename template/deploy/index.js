@@ -21,6 +21,7 @@ const Log = {
 
 if(!sshAddress) {
   Log.error("没有指定ssh hostname,请更新 sshAddress 字段");
+  return
 }
 
 exec("sh deploy/pb.sh")
