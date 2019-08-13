@@ -19,10 +19,10 @@ module.exports = {
     'type': 'input',
     'message': '文档作者'
   },
-  'iviewColor': {
+  'sshAddress': {
     'type': 'input',
-    'message': 'iview 的主题色',
-    'default': '#ff7300'
+    'message': '请输入 ssh host 方便快速部署',
+    'default': 'false'
   }
 },
 

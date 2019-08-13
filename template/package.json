@@ -1,5 +1,5 @@
 {
-  "name": "doc",
+  "name": "{{name}}",
   "private": true,
 	"version": "0.0.1",
   "description": "docs of DIDs",
