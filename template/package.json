@@ -2,7 +2,7 @@
   "name": "{{name}}",
   "private": true,
 	"version": "0.0.1",
-  "description": "docs of DIDs",
+  "description": "{{desc}}",
   "scripts": {
     "dev": "vuepress dev docs --temp .temp",
     "build": "vuepress build docs --temp .temp",

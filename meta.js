@@ -15,13 +15,18 @@ module.exports = {
     'required': true,
     'message': '文档名称'
   },
+  'desc': {
+    'type': 'input',
+    'required': true,
+    'message': '文档说明'
+  },
   'author': {
     'type': 'input',
     'message': '文档作者'
   },
   'sshAddress': {
     'type': 'input',
-    'message': '请输入 ssh host 方便快速部署',
+    'message': '请输入 ssh host 方便快速部署到中台开发容器',
     'default': 'false'
   }
 },
