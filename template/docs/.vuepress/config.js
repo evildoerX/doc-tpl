@@ -4,10 +4,10 @@ console.log(`test:${package.version}`);
 
 
 module.exports = ctx => ({
-  base: `/${package.version}/`,
+  base: `/${package.dir}/${package.version}/`,
   dest: "dist",
-  title: "DIDs - Docs",
-  description: "Decentralized Identifiers Documents",
+  title: package.name,
+  description: "Exchange Documents",
   theme: 'idg',
   markdown: {
     extendMarkdown: md => {
