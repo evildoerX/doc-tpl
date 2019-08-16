@@ -7,7 +7,7 @@ module.exports = ctx => ({
   base: `/${package.dir}/${package.version}/`,
   dest: "dist",
   title: package.name,
-  description: "Exchange Documents",
+  description: package.description,
   theme: 'idg',
   markdown: {
     extendMarkdown: md => {
