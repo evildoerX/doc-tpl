@@ -3,6 +3,7 @@
   "private": true,
 	"version": "0.0.1",
   "description": "{{desc}}",
+  "dir": "{{name}}",
   "scripts": {
     "dev": "vuepress dev docs --temp .temp",
     "build": "vuepress build docs --temp .temp",
